@@ -1,0 +1,44 @@
+footer{
+    background-color:  #5b85a1;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.sacialiconos{
+    display: flex;
+    justify-content: center;
+}
+.sacialiconos a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.sacialiconos a i{
+    font-size: 2em;
+    color: rgb(44, 153, 199);
+    opacity: 0.9;
+}
+
+.sacialiconos a:hover{
+    background-color: rgb(47, 147, 193);
+    transition: 0.5;
+}
+.sacialiconos a:hover i{
+    color: #fff;
+    transition: 0.5;
+}
+.footerbottom{
+    text-align: center;
+    color: #3835b4;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
